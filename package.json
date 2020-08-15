@@ -1,0 +1,25 @@
+{
+  "name": "get-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "bot": "node script.js"
+  },
+  "keywords": [],
+  "author": "YashMeh",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.11.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
