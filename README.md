@@ -1,6 +1,6 @@
 ## Api-Status Checker Slack BOT
 
-This is a small configurable bot that checks URL-x for status at every x-minutes for any x-channel on your slack workspace.
+This is a small configurable bot that checks URL-x for status at every x-minutes and notifies any x-channel on your slack workspace.
 
 > You might end up modifying your API to have a separate /api/status GET route (check ./server.js)
 
