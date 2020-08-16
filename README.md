@@ -36,7 +36,7 @@ docker run -d -e URL=<YOUR_URL> -e SLACK_TOKEN=<YOUR_SLACK_TOKEN> -e MINUTE=<MIN
 docker exec -it <container-id> sh
 ```
 
-- run the server (at localhost:3001) and set the URL in the container as localhost:3001
+- run the server (at localhost:3002) and set the URL in the container as localhost:3002
 
 ```
 npm run dev
