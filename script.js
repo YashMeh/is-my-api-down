@@ -29,7 +29,7 @@ var job = new CronJob(
                   } Time-${timestamp.toString()}`,
                 },
               ],
-              channel: process.env.CHANNEL,
+              channel: channel,
             })
             .then((botRes) => {
               console.log("unpredicted message posted");
