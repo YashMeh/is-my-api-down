@@ -3,7 +3,7 @@ const CronJob = require("cron").CronJob;
 const { WebClient } = require("@slack/web-api");
 
 //Setting environment variable
-const URL = process.env.URL || "http://localhost:3000/api/status";
+const URL = process.env.URL || "http://localhost:3002/api/status";
 const token = process.env.SLACK_TOKEN;
 const intervalMin = process.env.MINUTE || 5;
 const channel = process.env.CHANNEL;
